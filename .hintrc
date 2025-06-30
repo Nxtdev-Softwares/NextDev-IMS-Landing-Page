@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter",
+          "-webkit-overflow-scrolling",
+          "scrollbar-width",
+          "user-select",
+          "scrollbar-width: none",
+          "-webkit-backdrop-filter",
+          "-webkit-user-drag",
+          "-webkit-filter"
+        ]
+      }
+    ],
+    "button-type": "off"
+  }
+}
